@@ -20,6 +20,7 @@
 #include <sys/ioctl.h>
 #include <netdb.h>
 
+#define SERVER_PORT 3000
 #define MAXLINE 4096
 #define SA struct sockaddr
 
