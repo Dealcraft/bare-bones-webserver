@@ -3,4 +3,4 @@ project(simple_webserver)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(simple_webserver main.cpp)
+add_executable(simple_webserver main.cpp common.cpp common.h)
